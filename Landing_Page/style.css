@@ -1,0 +1,43 @@
+/* Keyframes */
+@keyframes swipeUp {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes swipeDown {
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Initial invisible state */
+.swipe-up,
+.swipe-down {
+  opacity: 0;
+   
+}
+
+/* Applied when visible on scroll */
+.animate-swipe-up {
+  animation: swipeUp 0.7s ease-out forwards;
+}
+
+.animate-swipe-down {
+  animation: swipeDown 0.7s ease-out forwards;
+}
+
+/* Optional stagger delay */
+.delay-1 { animation-delay: 0.2s; }
+.delay-2 { animation-delay: 0.4s; }
+.delay-3 { animation-delay: 0.6s; }
