@@ -15,5 +15,5 @@ Internship projects including LMS, PWA, landing page, and portfolio built using 
   📱 Fully responsive across all screen sizes (mobile, tablet, desktop).
   ⚡ Smooth transitions and utility-based styling with Tailwind CSS.
   
-   🔗 Deployment: https://elite-internship-projects.vercel.app/   (On Vercel) **please refresh once after clicking on the link to load the static App**
+   🔗 Deployment: https://elite-internship-projects.vercel.app   
 
